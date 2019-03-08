@@ -22,6 +22,7 @@ namespace GameApp.API.Controllers
             this._context = context;
         }
         // GET api/values
+        [AllowAnonymous]
         [HttpGet]
         // IActionResult allow return HTTP responses 
         /* 
