@@ -1,13 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using GameApp.API.Data;
+using GameApp.API.Helpers;
 using GameApp.API.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -73,6 +77,42 @@ namespace GameApp.API
             }
             else
             {
+                /*
+                    Understand the lambda function:
+                        Lambda expression is an anomyous method, which is a short way to
+                        write a delegate. Delegate is a function pointer.
+                        So when can we use lambda? One argument of this function is a 
+                        delegate(function pointer).
+                        UseExceptionHandler(this app, Action<>), first arugment is this 
+                        which we don't need to write. Second optional parameter is an 
+                        action, its definition is a delegate : public delegate void Action<in T>(T obj);
+                        . So that is why we can use a lambda here which must take one argument is app in
+                        this case, and also return type is void.
+                 */
+
+                /*
+                    public static void Run(this IApplicationBuilder app, RequestDelegate handler);
+                    public delegate Task RequestDelegate(HttpContext context);
+                    definition of Run function takes this as an argument, and takes a delegate
+                    as second parameter. This delegate should take in an HttpContext object and
+                    then return a Task
+                 */
+
+                Console.WriteLine("here this is production");
+                app.UseExceptionHandler(builder => {
+                    builder.Run(async context =>
+                    {
+                        Console.WriteLine("got an 500 error");
+                        context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
+
+                        var error = context.Features.Get<IExceptionHandlerFeature>();
+                        if (error != null)
+                        {
+                            context.Response.AddApplicationError(error.Error.Message);
+                            await context.Response.WriteAsync(error.Error.Message);
+                        }
+                    });
+                });
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 //app.UseHsts();
             }
