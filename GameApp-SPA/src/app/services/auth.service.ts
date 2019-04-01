@@ -8,6 +8,8 @@ import { JwtHelperService } from '@auth0/angular-jwt';
 export class AuthService {
 
   baseUrl = 'http://localhost:5000/api/auth/';
+  // this helper could check whether current token exsits or expired and also could
+  // decode the token to get some information like username(from header)
   jwtHelper = new JwtHelperService();
   decodedToken: any;
 constructor(private http: HttpClient) { }

@@ -1,16 +1,16 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <div class="container">
-        <a class="navbar-brand" href="#">GameApp</a>
+        <a class="navbar-brand" [routerLink]="['/home']">GameApp</a>
 
         <ul *ngIf="loggedIn()" class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" [routerLink]="['/home']" >Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Game List</a>
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" [routerLink]="['/games']" >Game List</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Messages</a>
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" [routerLink]="['/messages']">Messages</a>
           </li>
           <li class="nav-item">
               <a class="nav-link" href="#" (click)='logout()'>Logout</a>
