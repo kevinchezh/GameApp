@@ -38,6 +38,8 @@ namespace GameApp.API.Controllers
         }
         //route api/auth/register
         [HttpPost("register")]
+        // without [ApiController] then we need to [FromBody]UserForRegisterDto dto
+        // to tell dto to retrieve the data in post request's body
             public async Task<IActionResult> Register(UserForRegisterDto dto)
         {
             //DTO data transfer object

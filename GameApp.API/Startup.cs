@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using AutoMapper;
 using GameApp.API.Data;
 using GameApp.API.Helpers;
 using GameApp.API.Models;
@@ -38,10 +39,18 @@ namespace GameApp.API
             // postgresql db connection
             services.AddEntityFrameworkNpgsql().AddDbContext<MyWebApiContext>(opt => opt.UseNpgsql(
             Configuration.GetConnectionString("MyWebApiConnection")));
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2)
+                .AddJsonOptions(opt =>
+                {
+                    // ingore reference loop
+                    opt.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+                });
 
 
             services.AddCors();
+            // NuGet package: AutoMapper.Extensions.Microsoft.DependencyInjection
+            services.AddAutoMapper();
+            services.AddTransient<Seed>();
             // add service to this app
             /*
                 Three types: 
@@ -55,6 +64,7 @@ namespace GameApp.API
             */
             // first generic is interface and second is the concrete implementation
             services.AddScoped<IAuthRepository, AuthRepository>();
+            services.AddScoped<IGameRepository, GameRepository>();
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options =>
                 {
@@ -69,7 +79,7 @@ namespace GameApp.API
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, Seed seeder)
         {
             if (env.IsDevelopment())
             {
@@ -120,6 +130,9 @@ namespace GameApp.API
             //app.UseHttpsRedirection();
             // cors strategy: only allow request from some certain domains or simple allow all
             // and the order matters, have to use cors before mvc
+
+            // method below is for inserting some data into database
+            //seeder.SeedUsers();
             app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             app.UseAuthentication();
             app.UseMvc();
