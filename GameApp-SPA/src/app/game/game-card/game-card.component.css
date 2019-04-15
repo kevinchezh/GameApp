@@ -1,0 +1,44 @@
+.card:hover img {
+    /* hover zoom in picture */
+    transform: scale(1.2,1.2);
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+    opacity: 0.7;
+}
+
+.card img {
+/* back to normal size */
+    transform: scale(1.0,1.0);
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+}
+
+/* the image would not overflow to outside of the card region */
+.card-img-wrapper {
+    overflow: hidden;
+    /* position could very on different situation */
+    position: relative;
+}
+
+.member-icons {
+    /* button is in absolute position */
+    position: absolute;
+    bottom: -30%;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    /* but the opacity is 0 means invisible */
+    opacity: 0;
+}
+
+.card-img-wrapper:hover .member-icons {
+    /* when we hover over, the button becomes visible */
+    bottom: 0;
+    opacity: 1;
+}
+
+.animate {
+    /* add a little animation during transition */
+    transition: all 0.3s ease-in-out;
+}

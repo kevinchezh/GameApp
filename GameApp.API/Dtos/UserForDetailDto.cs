@@ -19,7 +19,7 @@ namespace GameApp.API.Dtos
         public string City { get; set; }
         public string Country { get; set; }
         public ICollection<GameForDetailDto> Games { get; set; }
-        public string PhotoUrl { get; set; }
+        public string GameUrl { get; set; }
         public UserForDetailDto()
         {
         }

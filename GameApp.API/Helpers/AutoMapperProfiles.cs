@@ -12,7 +12,7 @@ namespace GameApp.API.Helpers
         {
             // create mappings here
             CreateMap<User, UserForListDto>()
-                .ForMember(dest => dest.PhotoUrl, opt =>
+                .ForMember(dest => dest.GameUrl, opt =>
                 {
                     opt.MapFrom(src => src.Games.FirstOrDefault(p => p.IsMain).Url);
                 })
@@ -24,6 +24,10 @@ namespace GameApp.API.Helpers
                 .ForMember(dest => dest.Age, opt =>
                 {
                     opt.ResolveUsing(d => d.DateOfBirth.CalculateAge());
+                })
+                .ForMember(dest => dest.GameUrl, opt =>
+                {
+                    opt.MapFrom(src => src.Games.FirstOrDefault(p => p.IsMain).Url);
                 });
             CreateMap<Game, GameForDetailDto>();
 
