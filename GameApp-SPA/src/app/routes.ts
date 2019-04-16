@@ -7,6 +7,9 @@ import { AuthGuard } from './_guard/auth.guard';
 import { GameDetailComponent } from './game/game-detail/game-detail.component';
 import { GameDetailResolver } from './reslover/game-detail.resolver';
 import { GameListResolver } from './reslover/game-list.resolver';
+import { GameEditComponent } from './game/game-edit/game-edit.component';
+import { GameEditResolver } from './reslover/game-edit.resolver';
+import { PreventUnsavedChanges } from './_guard/prevent-unsaved-changes.guard';
 
 export const appRoutes: Routes = [
     {path : '', component: HomeComponent},
@@ -25,6 +28,8 @@ export const appRoutes: Routes = [
         children: [
             {path : 'games', component: GameListComponent, resolve: {users: GameListResolver}},
             {path : 'games/:id', component: GameDetailComponent, resolve: {user: GameDetailResolver}},
+            {path : 'game/edit', component: GameEditComponent, resolve: {user: GameEditResolver},
+        canDeactivate: [PreventUnsavedChanges]},
             {path : 'messages', component: MessagesComponent},
             {path : 'lists', component: ListsComponent},
         ]

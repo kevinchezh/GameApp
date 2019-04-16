@@ -30,6 +30,7 @@ namespace GameApp.API.Helpers
                     opt.MapFrom(src => src.Games.FirstOrDefault(p => p.IsMain).Url);
                 });
             CreateMap<Game, GameForDetailDto>();
+            CreateMap<UserForUpdateDto, User>();
 
             // auto mapper would map together two properties which have the same name without 
             // any configuration

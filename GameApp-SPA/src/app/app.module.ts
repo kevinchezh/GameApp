@@ -25,6 +25,9 @@ import { GameDetailComponent } from './game/game-detail/game-detail.component';
 import { NgxGalleryModule } from 'ngx-gallery';
 import { GameDetailResolver } from './reslover/game-detail.resolver';
 import { GameListResolver } from './reslover/game-list.resolver';
+import { GameEditComponent } from './game/game-edit/game-edit.component';
+import { GameEditResolver } from './reslover/game-edit.resolver';
+import { PreventUnsavedChanges } from './_guard/prevent-unsaved-changes.guard';
 export function tokenGetter() {
    return localStorage.getItem('token');
 }
@@ -40,7 +43,8 @@ export function tokenGetter() {
       MessagesComponent,
       GameListComponent,
       GameCardComponent,
-      GameDetailComponent
+      GameDetailComponent,
+      GameEditComponent
    ],
    imports: [
       BrowserModule,
@@ -70,7 +74,9 @@ export function tokenGetter() {
       AuthGuard,
       UserService,
       GameDetailResolver,
-      GameListResolver
+      GameListResolver,
+      GameEditResolver,
+      PreventUnsavedChanges
    ],
    bootstrap: [
       AppComponent
