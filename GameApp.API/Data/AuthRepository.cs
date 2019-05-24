@@ -33,7 +33,9 @@ namespace GameApp.API.Data
         public async Task<User> Login(string username, string password)
         {
             // find the user first using username
-            var user = await _context.Users.FirstOrDefaultAsync(x => x.Username == username);
+            // also include the Games collection under user because we want
+            // to use these information to send back to front end
+            var user = await _context.Users.Include(g => g.Games).FirstOrDefaultAsync(x => x.Username == username);
             if (user == null)
             {
                 // no user match

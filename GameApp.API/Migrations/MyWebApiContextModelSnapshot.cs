@@ -30,6 +30,8 @@ namespace GameApp.API.Migrations
 
                     b.Property<bool>("IsMain");
 
+                    b.Property<string>("PublicID");
+
                     b.Property<string>("Url");
 
                     b.Property<int>("UserId");

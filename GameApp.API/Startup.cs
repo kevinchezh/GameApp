@@ -48,6 +48,8 @@ namespace GameApp.API
 
 
             services.AddCors();
+//            configure cloudinary from appsettings
+            services.Configure<CloudinarySettings>(Configuration.GetSection("CloudinarySettings"));
             // NuGet package: AutoMapper.Extensions.Microsoft.DependencyInjection
             services.AddAutoMapper();
             services.AddTransient<Seed>();

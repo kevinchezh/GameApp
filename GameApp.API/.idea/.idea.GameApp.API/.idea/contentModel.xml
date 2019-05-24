@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p=".gitignore" t="Include" />
+      <e p="appsettings.Development.json" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Controllers" t="Include">
+        <e p="AuthController.cs" t="Include" />
+        <e p="GamesController.cs" t="Include" />
+        <e p="UsersController.cs" t="Include" />
+        <e p="ValuesController.cs" t="Include" />
+      </e>
+      <e p="Data" t="Include">
+        <e p="AuthRepository.cs" t="Include" />
+        <e p="GameRepository.cs" t="Include" />
+        <e p="IAuthRepository.cs" t="Include" />
+        <e p="IGameRepository.cs" t="Include" />
+        <e p="Seed.cs" t="Include" />
+        <e p="UserSeedData.json" t="Include" />
+      </e>
+      <e p="dbcommand" t="Include" />
+      <e p="Dtos" t="Include">
+        <e p="GameForCreationDto.cs" t="Include" />
+        <e p="GameForDetailDto.cs" t="Include" />
+        <e p="GameForReturnDto.cs" t="Include" />
+        <e p="UserForDetailDto.cs" t="Include" />
+        <e p="UserForListDto.cs" t="Include" />
+        <e p="UserForLoginDto.cs" t="Include" />
+        <e p="UserForRegisterDto.cs" t="Include" />
+        <e p="UserForUpdateDto.cs" t="Include" />
+      </e>
+      <e p="GameApp.API.csproj" t="IncludeRecursive" />
+      <e p="GameApp.API.sln" t="IncludeFlat" />
+      <e p="Helpers" t="Include">
+        <e p="AutoMapperProfiles.cs" t="Include" />
+        <e p="CloudinarySettings.cs" t="Include" />
+        <e p="Extensions.cs" t="Include" />
+      </e>
+      <e p="Migrations" t="Include">
+        <e p="20190307030122_InitialMigration.cs" t="Include" />
+        <e p="20190307030122_InitialMigration.Designer.cs" t="Include" />
+        <e p="20190307155539_AddedUserEntity.cs" t="Include" />
+        <e p="20190307155539_AddedUserEntity.Designer.cs" t="Include" />
+        <e p="20190307155743_User.cs" t="Include" />
+        <e p="20190307155743_User.Designer.cs" t="Include" />
+        <e p="20190402002948_ExtendedUserClass.cs" t="Include" />
+        <e p="20190402002948_ExtendedUserClass.Designer.cs" t="Include" />
+        <e p="20190402003702_initial.cs" t="Include" />
+        <e p="20190402003702_initial.Designer.cs" t="Include" />
+        <e p="20190402010503_AddGameUserCascadeDelete.cs" t="Include" />
+        <e p="20190402010503_AddGameUserCascadeDelete.Designer.cs" t="Include" />
+        <e p="20190521195255_addPublicID.cs" t="Include" />
+        <e p="20190521195255_addPublicID.Designer.cs" t="Include" />
+        <e p="MyWebApiContextModelSnapshot.cs" t="Include" />
+      </e>
+      <e p="Models" t="Include">
+        <e p="Game.cs" t="Include" />
+        <e p="MyWebApiContext.cs" t="Include" />
+        <e p="User.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp2.2" t="Include">
+            <e p="GameApp.API.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="Startup.cs" t="Include" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_GameApp.API.676010593.00" t="ExcludeRecursive" />
+  </component>
+</project>

@@ -3,6 +3,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
+using AutoMapper;
 using GameApp.API.Data;
 using GameApp.API.Dtos;
 using GameApp.API.Models;
@@ -30,11 +31,14 @@ namespace GameApp.API.Controllers
     {
         private readonly IAuthRepository _repo;
         private readonly IConfiguration _config;
+        private readonly IMapper _mapper;
 
-        public AuthController(IAuthRepository repo, IConfiguration config)
+        public AuthController(IAuthRepository repo, IConfiguration config,
+            IMapper mapper)
         {
             this._repo = repo;
             this._config = config;
+            _mapper = mapper;
         }
         //route api/auth/register
         [HttpPost("register")]
@@ -89,9 +93,13 @@ namespace GameApp.API.Controllers
 
             var tokenHandler = new JwtSecurityTokenHandler();
             var token = tokenHandler.CreateToken(tokenDescriptor);
+            // return token as well as some user information(except the salt and 
+            // password)
+            var user = _mapper.Map<UserForListDto>(userFromRepo);
             return Ok(new
             {
-                token = tokenHandler.WriteToken(token)
+                token = tokenHandler.WriteToken(token),
+                user
             });
         }
     }

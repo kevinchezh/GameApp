@@ -31,7 +31,8 @@ namespace GameApp.API.Helpers
                 });
             CreateMap<Game, GameForDetailDto>();
             CreateMap<UserForUpdateDto, User>();
-
+            CreateMap<Game, GameForReturnDto>();
+            CreateMap<GameForCreationDto, Game>();
             // auto mapper would map together two properties which have the same name without 
             // any configuration
         }

@@ -16,6 +16,17 @@ namespace GameApp.API.Controllers
     [Authorize]
     public class UsersController : ControllerBase
     {
+        /*
+         randomly:
+         * In a field declaration, readonly indicates that assignment to the field can only
+         * occur as part of the declaration or in a constructor in the same class.
+         * 
+            In a readonly struct definition, readonly indicates that the struct is 
+            immutable.
+            
+            In a ref readonly method return, the readonly modifier indicates that 
+            method returns a reference and writes are not allowed to that reference.
+         */
         readonly IGameRepository repo;
         readonly IMapper mapper;
 

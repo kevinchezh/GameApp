@@ -13,5 +13,8 @@ namespace GameApp.API.Data
         Task<bool> SaveAll();
         Task<IEnumerable<User>> GetUsers();
         Task<User> GetUser(int id);
+        Task<Game> GetGame(int id);
+
+        Task<Game> GetMainGame(int userId);
     }
 }
