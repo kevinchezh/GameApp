@@ -28,6 +28,8 @@ import { GameListResolver } from './reslover/game-list.resolver';
 import { GameEditComponent } from './game/game-edit/game-edit.component';
 import { GameEditResolver } from './reslover/game-edit.resolver';
 import { PreventUnsavedChanges } from './_guard/prevent-unsaved-changes.guard';
+import { GameEditorComponent } from './game/game-editor/game-editor.component';
+import { FileUploadModule } from "ng2-file-upload";
 export function tokenGetter() {
    return localStorage.getItem('token');
 }
@@ -44,7 +46,8 @@ export function tokenGetter() {
       GameListComponent,
       GameCardComponent,
       GameDetailComponent,
-      GameEditComponent
+      GameEditComponent,
+      GameEditorComponent
    ],
    imports: [
       BrowserModule,
@@ -65,7 +68,8 @@ export function tokenGetter() {
             // the domain that do not set token with
             blacklistedRoutes: ['localhost:5000/api/auth']
          }
-      })
+      }),
+     FileUploadModule
    ],
    providers: [
       AuthService,

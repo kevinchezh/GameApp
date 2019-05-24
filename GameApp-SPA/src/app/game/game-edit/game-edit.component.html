@@ -19,7 +19,7 @@
       
       <div class="col-sm-4">
         <div class="card">
-          <img class = 'card-img-top img-thumbnail' src="{{user.gameUrl}}" alt="{{user.knownAs}}">
+          <img class = 'card-img-top img-thumbnail' src="{{gameUrl}}" alt="{{user.knownAs}}">
           <div class="card-body">
             <div>
               <strong>Location:</strong>
@@ -69,11 +69,10 @@
               
             </tab>
             <tab heading = 'Edit Photos'>
-              <p>Photo edit here</p>
+              <app-game-editor [games]="user.games" (getMemberGameChange)="updateMainGame($event)"></app-game-editor>
             </tab>
           </tabset>
         </div>
       </div>
     </div>
   </div>
-  

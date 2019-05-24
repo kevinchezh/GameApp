@@ -14,6 +14,7 @@ import { AuthService } from 'src/app/services/auth.service';
 export class GameEditComponent implements OnInit {
   @ViewChild('editForm') editForm: NgForm;
   user: User;
+  gameUrl: string;
   // canDeactivated guard could only guard the navigation within this website
   // if we want to prevent user close the website or sth, we need host listener to monitor
   // the web browser for us.
@@ -31,6 +32,7 @@ export class GameEditComponent implements OnInit {
     this.route.data.subscribe(data => {
       this.user = data['user'];
     });
+    this.authService.currentGameUrl.subscribe(gameUrl => this.gameUrl = gameUrl);
   }
 
   updateUser() {
@@ -41,6 +43,10 @@ export class GameEditComponent implements OnInit {
     }, error => {
       this.alertify.error(error);
     });
+  }
+
+  updateMainGame(gameUrl) {
+    this.user.gameUrl = gameUrl;
   }
 
 }

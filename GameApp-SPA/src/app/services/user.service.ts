@@ -39,6 +39,13 @@ updateUser(id: number, user: User) {
   return this.http.put(this.baseUrl + 'users/' + id, user);
 }
 
+setMainGame(userId: number, id: number) {
+  return this.http.post(this.baseUrl + 'users/' + userId + '/games/' + id + '/setMain', {});
+}
+
+deleteGame(userId:number, id: number) {
+  return this.http.delete(this.baseUrl + 'users/' + userId + '/games/' + id);
+}
 
 }
 

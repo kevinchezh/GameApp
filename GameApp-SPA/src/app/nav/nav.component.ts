@@ -11,10 +11,12 @@ import { routerNgProbeToken } from '@angular/router/src/router_module';
 })
 export class NavComponent implements OnInit {
   model: any = {};
+  gameUrl: string;
   constructor(public authService: AuthService, private alterfiyService: AlertifyService,
     private router: Router) { }
 
   ngOnInit() {
+    this.authService.currentGameUrl.subscribe(gameUrl => this.gameUrl = gameUrl);
   }
 
   login() {
@@ -35,6 +37,9 @@ export class NavComponent implements OnInit {
 
   logout() {
     localStorage.removeItem('token');
+    localStorage.removeItem('user');
+    this.authService.decodedToken = null;
+    this.authService.currentUser = null;
     this.alterfiyService.message('logout');
     this.router.navigate(['']);
   }
