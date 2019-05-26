@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { BsDropdownModule, TabsModule } from 'ngx-bootstrap';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {BsDatepickerModule, BsDropdownModule, TabsModule} from 'ngx-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule} from '@angular/common/http';
@@ -54,7 +54,9 @@ export function tokenGetter() {
       AppRoutingModule,
       HttpClientModule,
       FormsModule,
+      ReactiveFormsModule,
       BsDropdownModule.forRoot(),
+      BsDatepickerModule.forRoot(),
       TabsModule.forRoot(),
       NgxGalleryModule,
       // routes set up
@@ -69,7 +71,8 @@ export function tokenGetter() {
             blacklistedRoutes: ['localhost:5000/api/auth']
          }
       }),
-     FileUploadModule
+     FileUploadModule,
+
    ],
    providers: [
       AuthService,

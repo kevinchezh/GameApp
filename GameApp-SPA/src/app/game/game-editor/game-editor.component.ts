@@ -50,6 +50,15 @@ export class GameEditorComponent implements OnInit {
           isMain: res.isMain
         };
         this.games.push(game);
+        // if this is the first game ever loaded, update the main game
+        if(game.isMain === true) {
+          // this.getMemberGameChange.emit(game.url);
+          this.authService.changeMemberGame(game.url);
+          // after update the Main game in memory, need to reflex that on the real current user
+          this.authService.currentUser.gameUrl = game.url;
+          // also update the localstorage
+          localStorage.setItem('user', JSON.stringify(this.authService.currentUser));
+        }
       }
     }
   }
