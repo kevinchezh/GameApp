@@ -2,35 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b4eb778-69de-4dbb-b184-ccdc2f3d223d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../GameApp-SPA/src/assets/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/GamesController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dtos/GameForCreationDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dtos/GameForReturnDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Helpers/CloudinarySettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GameApp-SPA/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../GameApp-SPA/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GameApp-SPA/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../GameApp-SPA/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GameApp-SPA/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../GameApp-SPA/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GameApp-SPA/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../GameApp-SPA/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GameApp-SPA/src/app/game/game-detail/game-detail.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../GameApp-SPA/src/app/game/game-detail/game-detail.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GameApp-SPA/src/app/game/game-edit/game-edit.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../GameApp-SPA/src/app/game/game-edit/game-edit.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GameApp-SPA/src/app/game/game-edit/game-edit.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../GameApp-SPA/src/app/game/game-edit/game-edit.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GameApp-SPA/src/app/game/game-edit/game-edit.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../GameApp-SPA/src/app/game/game-edit/game-edit.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GameApp-SPA/src/app/nav/nav.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../GameApp-SPA/src/app/nav/nav.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GameApp-SPA/src/app/nav/nav.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../GameApp-SPA/src/app/nav/nav.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GameApp-SPA/src/app/nav/nav.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../GameApp-SPA/src/app/nav/nav.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GameApp-SPA/src/app/services/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../GameApp-SPA/src/app/services/auth.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GameApp-SPA/src/app/services/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../GameApp-SPA/src/app/services/user.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GameApp-SPA/src/app/register/register.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../GameApp-SPA/src/app/register/register.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GameApp-SPA/src/app/register/register.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../GameApp-SPA/src/app/register/register.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameApp.API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameApp.API/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AuthController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/UsersController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/AuthRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/AuthRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/GameRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/GameRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/IGameRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/IGameRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameApp.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/GameApp.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dtos/UserForRegisterDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dtos/UserForRegisterDto.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Helpers/AutoMapperProfiles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Helpers/AutoMapperProfiles.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/MyWebApiContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/MyWebApiContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Game.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,114 +19,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Controllers/GamesController.cs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dtos/UserForRegisterDto.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="189" column="66" selection-start-line="189" selection-start-column="66" selection-end-line="189" selection-end-column="66" />
+            <state relative-caret-position="704">
+              <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
               <folding>
-                <marker date="1558658123031" expanded="true" signature="6:363" ph="..." />
-                <marker date="1558658123031" expanded="true" signature="398:7381" ph="{...}" />
-                <marker date="1558658123031" expanded="true" signature="526:7379" ph="{...}" />
-                <marker date="1558658123031" expanded="true" signature="865:1349" ph="{...}" />
-                <marker date="1558658123031" expanded="true" signature="1451:1624" ph="{...}" />
-                <marker date="1558658123031" expanded="true" signature="1642:1707" ph="/* where we upload the photo to cloudinary ... */" />
-                <marker date="1558658123031" expanded="true" signature="1855:4588" ph="{...}" />
-                <marker date="1558658123031" expanded="true" signature="1951:2018" ph="{...}" />
-                <marker date="1558658123031" expanded="true" signature="2336:3133" ph="{...}" />
-                <marker date="1558658123031" expanded="true" signature="2367:2633" ph="/* the logic below is the cloudinary api logic, see ... */" />
-                <marker date="1558658123031" expanded="true" signature="2709:3119" ph="{...}" />
-                <marker date="1558658123031" expanded="true" signature="2794:3031" ph="{...}" />
-                <marker date="1558658123031" expanded="true" signature="3405:3723" ph="/* Any method, determine whether any element in games sequence satisfy ... */" />
-                <marker date="1558658123031" expanded="true" signature="3779:3843" ph="{...}" />
-                <marker date="1558658123031" expanded="true" signature="3999:4520" ph="{...}" />
-                <marker date="1558658123031" expanded="true" signature="4030:4330" ph="/* usually the post request should return a 201 code, and that ... */" />
-                <marker date="1558658123031" expanded="true" signature="4698:5732" ph="{...}" />
-                <marker date="1558658123031" expanded="true" signature="4794:4861" ph="{...}" />
-                <marker date="1558658123031" expanded="true" signature="5028:5095" ph="{...}" />
-                <marker date="1558658123031" expanded="true" signature="5200:5296" ph="{...}" />
-                <marker date="1558658123031" expanded="true" signature="5596:5660" ph="{...}" />
-                <marker date="1558658123031" expanded="true" signature="5834:7364" ph="{...}" />
-                <marker date="1558658123031" expanded="true" signature="5930:5997" ph="{...}" />
-                <marker date="1558658123031" expanded="true" signature="6164:6231" ph="{...}" />
-                <marker date="1558658123031" expanded="true" signature="6336:6434" ph="{...}" />
-                <marker date="1558658123031" expanded="true" signature="6474:6920" ph="{...}" />
-                <marker date="1558658123031" expanded="true" signature="6714:6906" ph="{...}" />
-                <marker date="1558658123031" expanded="true" signature="6753:6848" ph="/* the deletion on cloudinary is ok ... */" />
-                <marker date="1558658123031" expanded="true" signature="6938:7145" ph="{...}" />
-                <marker date="1558658123031" expanded="true" signature="6969:7095" ph="/* if the game itself does not have a public id which means ... */" />
-                <marker date="1558658123031" expanded="true" signature="7198:7255" ph="{...}" />
+                <marker date="1558833041311" expanded="false" signature="6:58" ph="..." />
+                <marker date="1558833041311" expanded="true" signature="86:1075" ph="{...}" />
+                <marker date="1558833041311" expanded="true" signature="124:1073" ph="{...}" />
+                <marker date="1558833041311" expanded="true" signature="139:257" ph="/* this data field is required ... */" />
+                <marker date="1558833041311" expanded="true" signature="972:1067" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Controllers/AuthController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1792">
-              <caret line="71" column="48" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="48" />
+            <state relative-caret-position="45">
+              <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
               <folding>
-                <marker date="1558561366030" expanded="true" signature="6:335" ph="..." />
-                <marker date="1558561366030" expanded="true" signature="370:3959" ph="{...}" />
-                <marker date="1558561366030" expanded="true" signature="377:1039" ph="/* what does the ApiController do. One thing is to reterive data from request body and ... */" />
-                <marker date="1558561366030" expanded="true" signature="1141:3957" ph="{...}" />
-                <marker date="1558561366030" expanded="true" signature="1390:1506" ph="{...}" />
-                <marker date="1558561366030" expanded="true" signature="1580:1722" ph="/* without [ApiController] then we need to [FromBody]UserForRegisterDto dto ... */" />
-                <marker date="1558561366030" expanded="true" signature="1800:2504" ph="{...}" />
-                <marker date="1558561366030" expanded="true" signature="1823:2004" ph="/* DTO data transfer object ... */" />
-                <marker date="1558561366030" expanded="true" signature="2186:2276" ph="{...}" />
-                <marker date="1558561366030" expanded="true" signature="2330:2381" ph="{...}" />
-                <marker date="1558561366030" expanded="true" signature="2600:3951" ph="{...}" />
-                <marker date="1558561366030" expanded="true" signature="2735:2802" ph="{...}" />
-                <marker date="1558561366030" expanded="true" signature="2815:2845" ph="/* build token ... */" />
-                <marker date="1558561366030" expanded="true" signature="2889:3053" ph="{...}" />
-                <marker date="1558561366030" expanded="true" signature="3341:3504" ph="{...}" />
-                <marker date="1558561366030" expanded="true" signature="3648:3742" ph="/* return token as well as some user information(except the salt and ... */" />
-                <marker date="1558561366030" expanded="true" signature="3847:3939" ph="{...}" />
+                <marker date="1558833385121" expanded="true" signature="6:335" ph="..." />
+                <marker date="1558833385121" expanded="true" signature="370:4085" ph="{...}" />
+                <marker date="1558833385121" expanded="true" signature="377:1039" ph="/* what does the ApiController do. One thing is to reterive data from request body and ... */" />
+                <marker date="1558833385121" expanded="true" signature="1141:4083" ph="{...}" />
+                <marker date="1558833385121" expanded="true" signature="1390:1506" ph="{...}" />
+                <marker date="1558833385121" expanded="true" signature="1580:1722" ph="/* without [ApiController] then we need to [FromBody]UserForRegisterDto dto ... */" />
+                <marker date="1558833385121" expanded="true" signature="1800:2630" ph="{...}" />
+                <marker date="1558833385121" expanded="true" signature="1823:2004" ph="/* DTO data transfer object ... */" />
+                <marker date="1558833385121" expanded="true" signature="2186:2276" ph="{...}" />
+                <marker date="1558833385121" expanded="true" signature="2726:4077" ph="{...}" />
+                <marker date="1558833385121" expanded="true" signature="2861:2928" ph="{...}" />
+                <marker date="1558833385121" expanded="true" signature="2941:2971" ph="/* build token ... */" />
+                <marker date="1558833385121" expanded="true" signature="3015:3179" ph="{...}" />
+                <marker date="1558833385121" expanded="true" signature="3467:3630" ph="{...}" />
+                <marker date="1558833385121" expanded="true" signature="3774:3868" ph="/* return token as well as some user information(except the salt and ... */" />
+                <marker date="1558833385121" expanded="true" signature="3973:4065" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/AuthRepository.cs">
+        <entry file="file://$PROJECT_DIR$/Controllers/UsersController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="36" column="65" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
+            <state relative-caret-position="214">
+              <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
               <folding>
-                <marker date="1558561537741" expanded="true" signature="6:106" ph="..." />
-                <marker date="1558561537741" expanded="true" signature="134:4176" ph="{...}" />
-                <marker date="1558561537741" expanded="true" signature="141:1192" ph="/* Password encrypt logic: ... */" />
-                <marker date="1558561537741" expanded="true" signature="1242:4174" ph="{...}" />
-                <marker date="1558561537741" expanded="true" signature="1355:1412" ph="{...}" />
-                <marker date="1558561537741" expanded="true" signature="1485:2138" ph="{...}" />
-                <marker date="1558561537741" expanded="true" signature="1508:1687" ph="/* find the user first using username ... */" />
-                <marker date="1558561537741" expanded="true" signature="1833:1923" ph="{...}" />
-                <marker date="1558561537741" expanded="true" signature="2008:2103" ph="{...}" />
-                <marker date="1558561537741" expanded="true" signature="2238:2954" ph="{...}" />
-                <marker date="1558561537741" expanded="true" signature="2261:2400" ph="/* here we must take passwordSalt as an argument to make sure hmac would use this salt ... */" />
-                <marker date="1558561537741" expanded="true" signature="2502:2919" ph="{...}" />
-                <marker date="1558561537741" expanded="true" signature="2748:2904" ph="{...}" />
-                <marker date="1558561537741" expanded="true" signature="3024:3482" ph="{...}" />
-                <marker date="1558561537741" expanded="true" signature="3590:3940" ph="{...}" />
-                <marker date="1558561537741" expanded="true" signature="3779:3930" ph="{...}" />
-                <marker date="1558561537741" expanded="true" signature="4001:4168" ph="{...}" />
-                <marker date="1558561537741" expanded="true" signature="4088:4132" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/IGameRepository.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-              <folding>
-                <marker date="1558558990955" expanded="false" signature="6:103" ph="..." />
-                <marker date="1558558990955" expanded="true" signature="131:523" ph="{...}" />
-                <marker date="1558558990955" expanded="true" signature="170:521" ph="{...}" />
+                <marker date="1558833238982" expanded="true" signature="6:273" ph="..." />
+                <marker date="1558833238982" expanded="true" signature="308:3524" ph="{...}" />
+                <marker date="1558833238982" expanded="true" signature="428:3522" ph="{...}" />
+                <marker date="1558833238982" expanded="true" signature="443:951" ph="/* randomly: ... */" />
+                <marker date="1558833238982" expanded="true" signature="1093:1177" ph="{...}" />
+                <marker date="1558833238982" expanded="true" signature="1248:1438" ph="{...}" />
+                <marker date="1558833238982" expanded="true" signature="1540:1716" ph="{...}" />
+                <marker date="1558833238982" expanded="true" signature="1861:3515" ph="{...}" />
+                <marker date="1558833238982" expanded="true" signature="1884:2344" ph="/* The User object in this case is being obtained from the Controller base class, ... */" />
+                <marker date="1558833238982" expanded="true" signature="2358:2778" ph="/* User here is not the User data model we set up. It actually means the API user. If we ... */" />
+                <marker date="1558833238982" expanded="true" signature="2792:2952" ph="/* here we check if the id passed in is the same with the person who is making the request ... */" />
+                <marker date="1558833238982" expanded="true" signature="3034:3101" ph="{...}" />
+                <marker date="1558833238982" expanded="true" signature="3320:3384" ph="{...}" />
+                <marker date="1558833238982" expanded="true" signature="3401:3504" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -156,7 +90,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data/GameRepository.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1152">
+            <state relative-caret-position="1216">
               <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
               <folding>
                 <marker date="1558559045341" expanded="false" signature="6:159" ph="..." />
@@ -248,18 +182,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Helpers/AutoMapperProfiles.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="896">
-              <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+            <state relative-caret-position="439">
+              <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
               <folding>
-                <marker date="1558471896208" expanded="false" signature="6:100" ph="..." />
-                <marker date="1558471896208" expanded="true" signature="131:1387" ph="{...}" />
-                <marker date="1558471896208" expanded="true" signature="179:1385" ph="{...}" />
-                <marker date="1558471896208" expanded="true" signature="221:1379" ph="{...}" />
-                <marker date="1558471896208" expanded="true" signature="386:490" ph="{...}" />
-                <marker date="1558471896208" expanded="true" signature="560:652" ph="{...}" />
-                <marker date="1558471896208" expanded="true" signature="771:863" ph="{...}" />
-                <marker date="1558471896208" expanded="true" signature="937:1041" ph="{...}" />
-                <marker date="1558471896208" expanded="true" signature="1254:1369" ph="/* auto mapper would map together two properties which have the same name without ... */" />
+                <marker date="1558833063675" expanded="false" signature="6:100" ph="..." />
+                <marker date="1558833063675" expanded="true" signature="131:1438" ph="{...}" />
+                <marker date="1558833063675" expanded="true" signature="179:1436" ph="{...}" />
+                <marker date="1558833063675" expanded="true" signature="221:1430" ph="{...}" />
+                <marker date="1558833063675" expanded="true" signature="386:490" ph="{...}" />
+                <marker date="1558833063675" expanded="true" signature="560:652" ph="{...}" />
+                <marker date="1558833063675" expanded="true" signature="771:863" ph="{...}" />
+                <marker date="1558833063675" expanded="true" signature="937:1041" ph="{...}" />
+                <marker date="1558833063675" expanded="true" signature="1305:1420" ph="/* auto mapper would map together two properties which have the same name without ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Models/User.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-161">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding>
+                <marker date="1558384477431" expanded="false" signature="6:47" ph="..." />
+                <marker date="1558384477431" expanded="true" signature="77:848" ph="{...}" />
+                <marker date="1558384477431" expanded="true" signature="101:846" ph="{...}" />
+                <marker date="1558384477431" expanded="true" signature="820:840" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -284,6 +233,7 @@
     <setting file="file://$PROJECT_DIR$/Data/AuthRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/41E50088-C7A8-4747-9CE8-100C9454D9AC/81/3b7103b5/IQueryable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Data/IGameRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dtos/UserForRegisterDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Dtos/GameForDetailDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Dtos/UserForDetailDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
@@ -307,19 +257,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Controllers/UsersController.cs" />
         <option value="$PROJECT_DIR$/appsettings.json" />
         <option value="$PROJECT_DIR$/Helpers/CloudinarySettings.cs" />
         <option value="$PROJECT_DIR$/Startup.cs" />
         <option value="$PROJECT_DIR$/Models/Game.cs" />
         <option value="$PROJECT_DIR$/Dtos/GameForReturnDto.cs" />
-        <option value="$PROJECT_DIR$/Helpers/AutoMapperProfiles.cs" />
         <option value="$PROJECT_DIR$/Dtos/GameForCreationDto.cs" />
         <option value="$PROJECT_DIR$/Data/IGameRepository.cs" />
         <option value="$PROJECT_DIR$/Data/GameRepository.cs" />
-        <option value="$PROJECT_DIR$/Controllers/AuthController.cs" />
         <option value="$PROJECT_DIR$/Data/AuthRepository.cs" />
         <option value="$PROJECT_DIR$/Controllers/GamesController.cs" />
+        <option value="$PROJECT_DIR$/Dtos/UserForRegisterDto.cs" />
+        <option value="$PROJECT_DIR$/Helpers/AutoMapperProfiles.cs" />
+        <option value="$PROJECT_DIR$/Controllers/UsersController.cs" />
+        <option value="$PROJECT_DIR$/Controllers/AuthController.cs" />
       </list>
     </option>
   </component>
@@ -362,13 +313,31 @@
               <item name="GameApp.API" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
             </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="GameApp.API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="GameApp.API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Dtos" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="GameApp.API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="GameApp.API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Helpers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="GameApp.API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="GameApp.API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -376,7 +345,7 @@
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -437,12 +406,13 @@
       <workItem from="1558399121845" duration="3602000" />
       <workItem from="1558466367537" duration="7137000" />
       <workItem from="1558552561245" duration="3306000" />
-      <workItem from="1558656489575" duration="1711000" />
+      <workItem from="1558656489575" duration="3676000" />
+      <workItem from="1558823337332" duration="2675000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17526000" />
+    <option name="totallyTimeSpent" value="22166000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -454,26 +424,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="981" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="981" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1970181" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19914803" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24184477" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40944883" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24184477" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.40944883" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295838" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.3295838" />
       <window_info anchor="bottom" id="Performance Profiler" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Unit Tests" order="12" weight="0.3295838" />
       <window_info anchor="bottom" id="REST Client" order="13" />
-      <window_info anchor="bottom" id="Terminal" order="14" weight="0.18672666" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.23284589" />
       <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="16" />
       <window_info anchor="bottom" id="Build" order="17" weight="0.41169855" />
@@ -510,23 +480,23 @@
           </properties>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Controllers/AuthController.cs</url>
+          <line>53</line>
+          <properties documentPath="$PROJECT_DIR$/Controllers/AuthController.cs" initialLine="53">
+            <startOffsets>
+              <option value="2019" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2050" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Models/User.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <marker date="1558384477431" expanded="false" signature="6:47" ph="..." />
-            <marker date="1558384477431" expanded="true" signature="77:848" ph="{...}" />
-            <marker date="1558384477431" expanded="true" signature="101:846" ph="{...}" />
-            <marker date="1558384477431" expanded="true" signature="820:840" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Migrations/20190402010503_AddGameUserCascadeDelete.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -695,29 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controllers/UsersController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="78" column="55" lean-forward="true" selection-start-line="74" selection-start-column="12" selection-end-line="78" selection-end-column="55" />
-          <folding>
-            <marker date="1558402148572" expanded="true" signature="6:273" ph="..." />
-            <marker date="1558402148572" expanded="true" signature="308:3506" ph="{...}" />
-            <marker date="1558402148572" expanded="true" signature="428:3504" ph="{...}" />
-            <marker date="1558402148572" expanded="true" signature="443:951" ph="/* randomly: ... */" />
-            <marker date="1558402148572" expanded="true" signature="1093:1177" ph="{...}" />
-            <marker date="1558402148572" expanded="true" signature="1248:1438" ph="{...}" />
-            <marker date="1558402148572" expanded="true" signature="1522:1698" ph="{...}" />
-            <marker date="1558402148572" expanded="true" signature="1843:3497" ph="{...}" />
-            <marker date="1558402148572" expanded="true" signature="1866:2326" ph="/* The User object in this case is being obtained from the Controller base class, ... */" />
-            <marker date="1558402148572" expanded="true" signature="2340:2760" ph="/* User here is not the User data model we set up. It actually means the API user. If we ... */" />
-            <marker date="1558402148572" expanded="true" signature="2774:2934" ph="/* here we check if the id passed in is the same with the person who is making the request ... */" />
-            <marker date="1558402148572" expanded="true" signature="3016:3083" ph="{...}" />
-            <marker date="1558402148572" expanded="true" signature="3302:3366" ph="{...}" />
-            <marker date="1558402148572" expanded="true" signature="3383:3486" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dtos/UserForDetailDto.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -769,28 +716,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controllers/AuthController.cs">
+    <entry file="file://$PROJECT_DIR$/Controllers/GamesController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1792">
-          <caret line="71" column="48" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="48" />
+        <state relative-caret-position="-131">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding>
-            <marker date="1558561366030" expanded="true" signature="6:335" ph="..." />
-            <marker date="1558561366030" expanded="true" signature="370:3959" ph="{...}" />
-            <marker date="1558561366030" expanded="true" signature="377:1039" ph="/* what does the ApiController do. One thing is to reterive data from request body and ... */" />
-            <marker date="1558561366030" expanded="true" signature="1141:3957" ph="{...}" />
-            <marker date="1558561366030" expanded="true" signature="1390:1506" ph="{...}" />
-            <marker date="1558561366030" expanded="true" signature="1580:1722" ph="/* without [ApiController] then we need to [FromBody]UserForRegisterDto dto ... */" />
-            <marker date="1558561366030" expanded="true" signature="1800:2504" ph="{...}" />
-            <marker date="1558561366030" expanded="true" signature="1823:2004" ph="/* DTO data transfer object ... */" />
-            <marker date="1558561366030" expanded="true" signature="2186:2276" ph="{...}" />
-            <marker date="1558561366030" expanded="true" signature="2330:2381" ph="{...}" />
-            <marker date="1558561366030" expanded="true" signature="2600:3951" ph="{...}" />
-            <marker date="1558561366030" expanded="true" signature="2735:2802" ph="{...}" />
-            <marker date="1558561366030" expanded="true" signature="2815:2845" ph="/* build token ... */" />
-            <marker date="1558561366030" expanded="true" signature="2889:3053" ph="{...}" />
-            <marker date="1558561366030" expanded="true" signature="3341:3504" ph="{...}" />
-            <marker date="1558561366030" expanded="true" signature="3648:3742" ph="/* return token as well as some user information(except the salt and ... */" />
-            <marker date="1558561366030" expanded="true" signature="3847:3939" ph="{...}" />
+            <marker date="1558658123031" expanded="true" signature="6:363" ph="..." />
+            <marker date="1558658123031" expanded="true" signature="398:7381" ph="{...}" />
+            <marker date="1558658123031" expanded="true" signature="526:7379" ph="{...}" />
+            <marker date="1558658123031" expanded="true" signature="865:1349" ph="{...}" />
+            <marker date="1558658123031" expanded="true" signature="1451:1624" ph="{...}" />
+            <marker date="1558658123031" expanded="true" signature="1642:1707" ph="/* where we upload the photo to cloudinary ... */" />
+            <marker date="1558658123031" expanded="true" signature="1855:4588" ph="{...}" />
+            <marker date="1558658123031" expanded="true" signature="1951:2018" ph="{...}" />
+            <marker date="1558658123031" expanded="true" signature="2336:3133" ph="{...}" />
+            <marker date="1558658123031" expanded="true" signature="2367:2633" ph="/* the logic below is the cloudinary api logic, see ... */" />
+            <marker date="1558658123031" expanded="true" signature="2709:3119" ph="{...}" />
+            <marker date="1558658123031" expanded="true" signature="2794:3031" ph="{...}" />
+            <marker date="1558658123031" expanded="true" signature="3405:3723" ph="/* Any method, determine whether any element in games sequence satisfy ... */" />
+            <marker date="1558658123031" expanded="true" signature="3779:3843" ph="{...}" />
+            <marker date="1558658123031" expanded="true" signature="3999:4520" ph="{...}" />
+            <marker date="1558658123031" expanded="true" signature="4030:4330" ph="/* usually the post request should return a 201 code, and that ... */" />
+            <marker date="1558658123031" expanded="true" signature="4698:5732" ph="{...}" />
+            <marker date="1558658123031" expanded="true" signature="4794:4861" ph="{...}" />
+            <marker date="1558658123031" expanded="true" signature="5028:5095" ph="{...}" />
+            <marker date="1558658123031" expanded="true" signature="5200:5296" ph="{...}" />
+            <marker date="1558658123031" expanded="true" signature="5596:5660" ph="{...}" />
+            <marker date="1558658123031" expanded="true" signature="5834:7364" ph="{...}" />
+            <marker date="1558658123031" expanded="true" signature="5930:5997" ph="{...}" />
+            <marker date="1558658123031" expanded="true" signature="6164:6231" ph="{...}" />
+            <marker date="1558658123031" expanded="true" signature="6336:6434" ph="{...}" />
+            <marker date="1558658123031" expanded="true" signature="6474:6920" ph="{...}" />
+            <marker date="1558658123031" expanded="true" signature="6714:6906" ph="{...}" />
+            <marker date="1558658123031" expanded="true" signature="6753:6848" ph="/* the deletion on cloudinary is ok ... */" />
+            <marker date="1558658123031" expanded="true" signature="6938:7145" ph="{...}" />
+            <marker date="1558658123031" expanded="true" signature="6969:7095" ph="/* if the game itself does not have a public id which means ... */" />
+            <marker date="1558658123031" expanded="true" signature="7198:7255" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/AuthRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="36" column="65" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
+          <folding>
+            <marker date="1558561537741" expanded="true" signature="6:106" ph="..." />
+            <marker date="1558561537741" expanded="true" signature="134:4176" ph="{...}" />
+            <marker date="1558561537741" expanded="true" signature="141:1192" ph="/* Password encrypt logic: ... */" />
+            <marker date="1558561537741" expanded="true" signature="1242:4174" ph="{...}" />
+            <marker date="1558561537741" expanded="true" signature="1355:1412" ph="{...}" />
+            <marker date="1558561537741" expanded="true" signature="1485:2138" ph="{...}" />
+            <marker date="1558561537741" expanded="true" signature="1508:1687" ph="/* find the user first using username ... */" />
+            <marker date="1558561537741" expanded="true" signature="1833:1923" ph="{...}" />
+            <marker date="1558561537741" expanded="true" signature="2008:2103" ph="{...}" />
+            <marker date="1558561537741" expanded="true" signature="2238:2954" ph="{...}" />
+            <marker date="1558561537741" expanded="true" signature="2261:2400" ph="/* here we must take passwordSalt as an argument to make sure hmac would use this salt ... */" />
+            <marker date="1558561537741" expanded="true" signature="2502:2919" ph="{...}" />
+            <marker date="1558561537741" expanded="true" signature="2748:2904" ph="{...}" />
+            <marker date="1558561537741" expanded="true" signature="3024:3482" ph="{...}" />
+            <marker date="1558561537741" expanded="true" signature="3590:3940" ph="{...}" />
+            <marker date="1558561537741" expanded="true" signature="3779:3930" ph="{...}" />
+            <marker date="1558561537741" expanded="true" signature="4001:4168" ph="{...}" />
+            <marker date="1558561537741" expanded="true" signature="4088:4132" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -809,7 +797,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/GameRepository.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
+        <state relative-caret-position="1216">
           <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
           <folding>
             <marker date="1558559045341" expanded="false" signature="6:159" ph="..." />
@@ -891,85 +879,93 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Helpers/AutoMapperProfiles.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="896">
-          <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+        <state relative-caret-position="439">
+          <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
           <folding>
-            <marker date="1558471896208" expanded="false" signature="6:100" ph="..." />
-            <marker date="1558471896208" expanded="true" signature="131:1387" ph="{...}" />
-            <marker date="1558471896208" expanded="true" signature="179:1385" ph="{...}" />
-            <marker date="1558471896208" expanded="true" signature="221:1379" ph="{...}" />
-            <marker date="1558471896208" expanded="true" signature="386:490" ph="{...}" />
-            <marker date="1558471896208" expanded="true" signature="560:652" ph="{...}" />
-            <marker date="1558471896208" expanded="true" signature="771:863" ph="{...}" />
-            <marker date="1558471896208" expanded="true" signature="937:1041" ph="{...}" />
-            <marker date="1558471896208" expanded="true" signature="1254:1369" ph="/* auto mapper would map together two properties which have the same name without ... */" />
+            <marker date="1558833063675" expanded="false" signature="6:100" ph="..." />
+            <marker date="1558833063675" expanded="true" signature="131:1438" ph="{...}" />
+            <marker date="1558833063675" expanded="true" signature="179:1436" ph="{...}" />
+            <marker date="1558833063675" expanded="true" signature="221:1430" ph="{...}" />
+            <marker date="1558833063675" expanded="true" signature="386:490" ph="{...}" />
+            <marker date="1558833063675" expanded="true" signature="560:652" ph="{...}" />
+            <marker date="1558833063675" expanded="true" signature="771:863" ph="{...}" />
+            <marker date="1558833063675" expanded="true" signature="937:1041" ph="{...}" />
+            <marker date="1558833063675" expanded="true" signature="1305:1420" ph="/* auto mapper would map together two properties which have the same name without ... */" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/AuthRepository.cs">
+    <entry file="file://$PROJECT_DIR$/Models/User.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="36" column="65" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
+        <state relative-caret-position="-161">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding>
-            <marker date="1558561537741" expanded="true" signature="6:106" ph="..." />
-            <marker date="1558561537741" expanded="true" signature="134:4176" ph="{...}" />
-            <marker date="1558561537741" expanded="true" signature="141:1192" ph="/* Password encrypt logic: ... */" />
-            <marker date="1558561537741" expanded="true" signature="1242:4174" ph="{...}" />
-            <marker date="1558561537741" expanded="true" signature="1355:1412" ph="{...}" />
-            <marker date="1558561537741" expanded="true" signature="1485:2138" ph="{...}" />
-            <marker date="1558561537741" expanded="true" signature="1508:1687" ph="/* find the user first using username ... */" />
-            <marker date="1558561537741" expanded="true" signature="1833:1923" ph="{...}" />
-            <marker date="1558561537741" expanded="true" signature="2008:2103" ph="{...}" />
-            <marker date="1558561537741" expanded="true" signature="2238:2954" ph="{...}" />
-            <marker date="1558561537741" expanded="true" signature="2261:2400" ph="/* here we must take passwordSalt as an argument to make sure hmac would use this salt ... */" />
-            <marker date="1558561537741" expanded="true" signature="2502:2919" ph="{...}" />
-            <marker date="1558561537741" expanded="true" signature="2748:2904" ph="{...}" />
-            <marker date="1558561537741" expanded="true" signature="3024:3482" ph="{...}" />
-            <marker date="1558561537741" expanded="true" signature="3590:3940" ph="{...}" />
-            <marker date="1558561537741" expanded="true" signature="3779:3930" ph="{...}" />
-            <marker date="1558561537741" expanded="true" signature="4001:4168" ph="{...}" />
-            <marker date="1558561537741" expanded="true" signature="4088:4132" ph="{...}" />
+            <marker date="1558384477431" expanded="false" signature="6:47" ph="..." />
+            <marker date="1558384477431" expanded="true" signature="77:848" ph="{...}" />
+            <marker date="1558384477431" expanded="true" signature="101:846" ph="{...}" />
+            <marker date="1558384477431" expanded="true" signature="820:840" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controllers/GamesController.cs">
+    <entry file="file://$PROJECT_DIR$/Controllers/UsersController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="189" column="66" selection-start-line="189" selection-start-column="66" selection-end-line="189" selection-end-column="66" />
+        <state relative-caret-position="214">
+          <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
           <folding>
-            <marker date="1558658123031" expanded="true" signature="6:363" ph="..." />
-            <marker date="1558658123031" expanded="true" signature="398:7381" ph="{...}" />
-            <marker date="1558658123031" expanded="true" signature="526:7379" ph="{...}" />
-            <marker date="1558658123031" expanded="true" signature="865:1349" ph="{...}" />
-            <marker date="1558658123031" expanded="true" signature="1451:1624" ph="{...}" />
-            <marker date="1558658123031" expanded="true" signature="1642:1707" ph="/* where we upload the photo to cloudinary ... */" />
-            <marker date="1558658123031" expanded="true" signature="1855:4588" ph="{...}" />
-            <marker date="1558658123031" expanded="true" signature="1951:2018" ph="{...}" />
-            <marker date="1558658123031" expanded="true" signature="2336:3133" ph="{...}" />
-            <marker date="1558658123031" expanded="true" signature="2367:2633" ph="/* the logic below is the cloudinary api logic, see ... */" />
-            <marker date="1558658123031" expanded="true" signature="2709:3119" ph="{...}" />
-            <marker date="1558658123031" expanded="true" signature="2794:3031" ph="{...}" />
-            <marker date="1558658123031" expanded="true" signature="3405:3723" ph="/* Any method, determine whether any element in games sequence satisfy ... */" />
-            <marker date="1558658123031" expanded="true" signature="3779:3843" ph="{...}" />
-            <marker date="1558658123031" expanded="true" signature="3999:4520" ph="{...}" />
-            <marker date="1558658123031" expanded="true" signature="4030:4330" ph="/* usually the post request should return a 201 code, and that ... */" />
-            <marker date="1558658123031" expanded="true" signature="4698:5732" ph="{...}" />
-            <marker date="1558658123031" expanded="true" signature="4794:4861" ph="{...}" />
-            <marker date="1558658123031" expanded="true" signature="5028:5095" ph="{...}" />
-            <marker date="1558658123031" expanded="true" signature="5200:5296" ph="{...}" />
-            <marker date="1558658123031" expanded="true" signature="5596:5660" ph="{...}" />
-            <marker date="1558658123031" expanded="true" signature="5834:7364" ph="{...}" />
-            <marker date="1558658123031" expanded="true" signature="5930:5997" ph="{...}" />
-            <marker date="1558658123031" expanded="true" signature="6164:6231" ph="{...}" />
-            <marker date="1558658123031" expanded="true" signature="6336:6434" ph="{...}" />
-            <marker date="1558658123031" expanded="true" signature="6474:6920" ph="{...}" />
-            <marker date="1558658123031" expanded="true" signature="6714:6906" ph="{...}" />
-            <marker date="1558658123031" expanded="true" signature="6753:6848" ph="/* the deletion on cloudinary is ok ... */" />
-            <marker date="1558658123031" expanded="true" signature="6938:7145" ph="{...}" />
-            <marker date="1558658123031" expanded="true" signature="6969:7095" ph="/* if the game itself does not have a public id which means ... */" />
-            <marker date="1558658123031" expanded="true" signature="7198:7255" ph="{...}" />
+            <marker date="1558833238982" expanded="true" signature="6:273" ph="..." />
+            <marker date="1558833238982" expanded="true" signature="308:3524" ph="{...}" />
+            <marker date="1558833238982" expanded="true" signature="428:3522" ph="{...}" />
+            <marker date="1558833238982" expanded="true" signature="443:951" ph="/* randomly: ... */" />
+            <marker date="1558833238982" expanded="true" signature="1093:1177" ph="{...}" />
+            <marker date="1558833238982" expanded="true" signature="1248:1438" ph="{...}" />
+            <marker date="1558833238982" expanded="true" signature="1540:1716" ph="{...}" />
+            <marker date="1558833238982" expanded="true" signature="1861:3515" ph="{...}" />
+            <marker date="1558833238982" expanded="true" signature="1884:2344" ph="/* The User object in this case is being obtained from the Controller base class, ... */" />
+            <marker date="1558833238982" expanded="true" signature="2358:2778" ph="/* User here is not the User data model we set up. It actually means the API user. If we ... */" />
+            <marker date="1558833238982" expanded="true" signature="2792:2952" ph="/* here we check if the id passed in is the same with the person who is making the request ... */" />
+            <marker date="1558833238982" expanded="true" signature="3034:3101" ph="{...}" />
+            <marker date="1558833238982" expanded="true" signature="3320:3384" ph="{...}" />
+            <marker date="1558833238982" expanded="true" signature="3401:3504" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dtos/UserForRegisterDto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <marker date="1558833041311" expanded="false" signature="6:58" ph="..." />
+            <marker date="1558833041311" expanded="true" signature="86:1075" ph="{...}" />
+            <marker date="1558833041311" expanded="true" signature="124:1073" ph="{...}" />
+            <marker date="1558833041311" expanded="true" signature="139:257" ph="/* this data field is required ... */" />
+            <marker date="1558833041311" expanded="true" signature="972:1067" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/AuthController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+          <folding>
+            <marker date="1558833385121" expanded="true" signature="6:335" ph="..." />
+            <marker date="1558833385121" expanded="true" signature="370:4085" ph="{...}" />
+            <marker date="1558833385121" expanded="true" signature="377:1039" ph="/* what does the ApiController do. One thing is to reterive data from request body and ... */" />
+            <marker date="1558833385121" expanded="true" signature="1141:4083" ph="{...}" />
+            <marker date="1558833385121" expanded="true" signature="1390:1506" ph="{...}" />
+            <marker date="1558833385121" expanded="true" signature="1580:1722" ph="/* without [ApiController] then we need to [FromBody]UserForRegisterDto dto ... */" />
+            <marker date="1558833385121" expanded="true" signature="1800:2630" ph="{...}" />
+            <marker date="1558833385121" expanded="true" signature="1823:2004" ph="/* DTO data transfer object ... */" />
+            <marker date="1558833385121" expanded="true" signature="2186:2276" ph="{...}" />
+            <marker date="1558833385121" expanded="true" signature="2726:4077" ph="{...}" />
+            <marker date="1558833385121" expanded="true" signature="2861:2928" ph="{...}" />
+            <marker date="1558833385121" expanded="true" signature="2941:2971" ph="/* build token ... */" />
+            <marker date="1558833385121" expanded="true" signature="3015:3179" ph="{...}" />
+            <marker date="1558833385121" expanded="true" signature="3467:3630" ph="{...}" />
+            <marker date="1558833385121" expanded="true" signature="3774:3868" ph="/* return token as well as some user information(except the salt and ... */" />
+            <marker date="1558833385121" expanded="true" signature="3973:4065" ph="{...}" />
           </folding>
         </state>
       </provider>

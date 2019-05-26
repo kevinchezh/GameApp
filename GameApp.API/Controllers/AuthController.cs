@@ -58,13 +58,12 @@ namespace GameApp.API.Controllers
             {
                 return BadRequest("username already exists");
             }
-
-            var UserToCreate = new User
-            {
-                Username = username
-            };
+            
+            var UserToCreate = _mapper.Map<User>(dto);
             var createdUser = await _repo.Register(UserToCreate, password);
-            return StatusCode(201);
+            var userToReturn = _mapper.Map<UserForDetailDto>(createdUser);
+            return CreatedAtRoute("GetUser", new {controller = "Users", id = createdUser.Id},
+                userToReturn);
         }
         [HttpPost("login")]
         public async Task<IActionResult> Login(UserForLoginDto dto)
